@@ -1,4 +1,6 @@
 #!/bin/bash
+DELAY=${1:-120}
+sleep $DELAY
 while true; do
   zenity  --question \
     --title "Back to work" \
